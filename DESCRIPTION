@@ -11,11 +11,11 @@ Authors@R: c(person("Joshua", "Sodicoff", role = "aut",
                      email = "robbiand@med.umich.edu"),
               person("Joshua", "Welch", role = c("aut", "cph"),
                      email = "welchjd@umich.edu"))
-Depends: RANN
-Imports: rliger, stringr, magrittr, dplyr, tidyr, ggplot2, reshape, openxlsx, cowplot, scrattch.hicat, rgl, sjmisc, limma, edgeR, impute, GO.db
+Depends: RANN, BiocManager
+biocViews:
+Remotes: AllenInstitute/scrattch.hicat
+Imports: rliger, stringr, magrittr, dplyr, tidyr, ggplot2, reshape, openxlsx, cowplot, preprocessCore, scrattch.hicat, rgl, sjmisc, limma, edgeR, impute, GO.db
 Suggests: MASS,  shinythemes, shiny, gplots
 Description: Pipeline to elicit reproducible workflows for the BICCN project
 License: GPL (>= 3)
 URL: https://github.com/welch-lab/liger
-Remotes: AllenInstitute/scrattch.hicat
-biocViews:
